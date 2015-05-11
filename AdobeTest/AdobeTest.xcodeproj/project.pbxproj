@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DF4FBE11B0066AD00907E2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF4FBE01B0066AD00907E2D /* main.m */; };
+		3DF4FBE91B0066C800907E2D /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF4FBE81B0066C800907E2D /* Tree.m */; };
+		3DF4FBEF1B008BB100907E2D /* NSMutableArray+Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF4FBEE1B008BB100907E2D /* NSMutableArray+Queue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3DF4FBDB1B0066AD00907E2D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3DF4FBDD1B0066AD00907E2D /* AdobeTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdobeTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF4FBE01B0066AD00907E2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DF4FBE71B0066C800907E2D /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		3DF4FBE81B0066C800907E2D /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
+		3DF4FBED1B008BB100907E2D /* NSMutableArray+Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Queue.h"; sourceTree = "<group>"; };
+		3DF4FBEE1B008BB100907E2D /* NSMutableArray+Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Queue.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DF4FBDA1B0066AD00907E2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DF4FBD41B0066AD00907E2D = {
+			isa = PBXGroup;
+			children = (
+				3DF4FBDF1B0066AD00907E2D /* AdobeTest */,
+				3DF4FBDE1B0066AD00907E2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DF4FBDE1B0066AD00907E2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DF4FBDD1B0066AD00907E2D /* AdobeTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DF4FBDF1B0066AD00907E2D /* AdobeTest */ = {
+			isa = PBXGroup;
+			children = (
+				3DF4FBE01B0066AD00907E2D /* main.m */,
+				3DF4FBE71B0066C800907E2D /* Tree.h */,
+				3DF4FBE81B0066C800907E2D /* Tree.m */,
+				3DF4FBED1B008BB100907E2D /* NSMutableArray+Queue.h */,
+				3DF4FBEE1B008BB100907E2D /* NSMutableArray+Queue.m */,
+			);
+			path = AdobeTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DF4FBDC1B0066AD00907E2D /* AdobeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF4FBE41B0066AD00907E2D /* Build configuration list for PBXNativeTarget "AdobeTest" */;
+			buildPhases = (
+				3DF4FBD91B0066AD00907E2D /* Sources */,
+				3DF4FBDA1B0066AD00907E2D /* Frameworks */,
+				3DF4FBDB1B0066AD00907E2D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdobeTest;
+			productName = AdobeTest;
+			productReference = 3DF4FBDD1B0066AD00907E2D /* AdobeTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DF4FBD51B0066AD00907E2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = pravin;
+				TargetAttributes = {
+					3DF4FBDC1B0066AD00907E2D = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3DF4FBD81B0066AD00907E2D /* Build configuration list for PBXProject "AdobeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3DF4FBD41B0066AD00907E2D;
+			productRefGroup = 3DF4FBDE1B0066AD00907E2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DF4FBDC1B0066AD00907E2D /* AdobeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DF4FBD91B0066AD00907E2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF4FBE11B0066AD00907E2D /* main.m in Sources */,
+				3DF4FBE91B0066C800907E2D /* Tree.m in Sources */,
+				3DF4FBEF1B008BB100907E2D /* NSMutableArray+Queue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3DF4FBE21B0066AD00907E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3DF4FBE31B0066AD00907E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3DF4FBE51B0066AD00907E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DF4FBE61B0066AD00907E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DF4FBD81B0066AD00907E2D /* Build configuration list for PBXProject "AdobeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF4FBE21B0066AD00907E2D /* Debug */,
+				3DF4FBE31B0066AD00907E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DF4FBE41B0066AD00907E2D /* Build configuration list for PBXNativeTarget "AdobeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF4FBE51B0066AD00907E2D /* Debug */,
+				3DF4FBE61B0066AD00907E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DF4FBD51B0066AD00907E2D /* Project object */;
+}
